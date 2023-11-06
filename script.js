@@ -6,3 +6,10 @@
 //         return false; // Zapobiegamy domyślnej akcji przesyłania formularza
 //     };
 // });
+
+
+
+
+localStorage.setItem("language", "pl");
+
+sessionStorage.setItem("cosTam", "alaMaKota");

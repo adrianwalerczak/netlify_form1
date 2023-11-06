@@ -12,12 +12,12 @@
 
 localStorage.setItem("language", "pl");
 
-sessionStorage.setItem("cosTam", "alaMaKota");
+sessionStorage.setItem("KeyAla", "ValueAlaMaKota");
 
 // Ustawienie ciasteczka
-document.cookie = "nazwa_ciasteczka=wartosc_ciasteczka; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+document.cookie = "zwykle_cookie=zakalec; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
 
-document.cookie = "my_cookie=my_sensitive_data; HttpOnly; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+document.cookie = "httpOnlyCookie=dane_wrazliwe; HttpOnly; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
 
 console.log(document.cookie)
 
